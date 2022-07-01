@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+
+    <name>lang_pkg_simplesocialmediastream_pl-PL</name>
+    <author>Zbigniew Sokal</author>
+    <creationDate>27 June 2022</creationDate>
+    <copyright>(C) 2018-2022 Poradniki Dziadka</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>admin@dziadek.guide</authorEmail>
+    <authorUrl>https://dziadek.guide</authorUrl>
+    <version>5.5.13</version>
+    <description>Polski (pl-PL) pakiet językowy dla pakietu Simple Social Media Stream</description>
+
+    <!-- Fileset definition -->
+    <fileset>
+
+        <!-- back-end -->
+        <files folder="admin" target="administrator/language/pl-PL">
+            <filename>pl-PL.com_simplesocialmediastream.ini</filename>
+            <filename>pl-PL.com_simplesocialmediastream.sys.ini</filename>
+            <filename>pl-PL.plg_system_simplesocialstreamnotifications.ini</filename>
+            <filename>pl-PL.plg_system_simplesocialstreamnotifications.sys.ini</filename>
+        </files>
+
+        <!-- front-end -->
+        <files folder="site" target="language/pl-PL">
+            <filename>pl-PL.com_simplesocialmediastream.ini</filename>
+            <filename>pl-PL.mod_simplesocialmediastream_stream.ini</filename>
+            <filename>pl-PL.mod_simplesocialmediastream_stream.sys.ini</filename>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="collection" priority="1" name="lang_pkg_simplesocialmediastream_pl-PL">https://dziadek.guide/upgrade/translationlist.xml</server>
+    </updateservers>
+</extension>
