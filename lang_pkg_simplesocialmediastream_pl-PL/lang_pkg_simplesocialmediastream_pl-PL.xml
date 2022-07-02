@@ -8,8 +8,8 @@
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
     <authorEmail>admin@dziadek.guide</authorEmail>
     <authorUrl>https://dziadek.guide</authorUrl>
-    <version>5.5.13</version>
-    <description>Polski (pl-PL) pakiet językowy dla pakietu Simple Social Media Stream</description>
+    <version>3.11.0</version>
+    <description>Polski pakiet językowy dla komponentu Simple Social Media Stream</description>
 
     <!-- Fileset definition -->
     <fileset>
