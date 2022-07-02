@@ -1,2 +1,2 @@
-# pl-PL_pkg_simplesocialmediastream_lang
+# Simple Social Media Stream
  Polish language for Simple Social Media Stream
